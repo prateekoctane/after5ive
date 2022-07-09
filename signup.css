@@ -1,0 +1,36 @@
+/* for parent */
+
+#parent{
+    border: 0px solid black;
+    width: 28%;
+    height:auto;
+    margin-left: 21%;
+    margin-top: 6%;
+     text-align: center;
+  line-height: 50px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #48c9b0;
+}
+/* for visitor */
+p{
+    color: whitesmoke;
+    font-size: 35px;
+}
+/* for name,email,org,signup and return */
+#name,#email,#org,#signup,#return{
+    height: 45px;
+    width: 85%;
+    background-color:white;
+    border: none;
+}
+/* for signup and return */
+#signup,#return{
+    background-color: #17a589;
+    color:whitesmoke;
+    font-style: bold;
+}
+
+hr{
+    border: none;
+}
