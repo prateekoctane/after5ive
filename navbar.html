@@ -47,12 +47,26 @@
 
            <div>
 
-               <div> <a href="">Men</a> </div>
-               <div> <a href="">Women</a> </div>
-               <div> <a href="">Login</a> </div>
-               <div> <a href="">Signup</a> </div>
+               <div> <a href="mensPage/mens.html">Men</a> </div>
+               <div> <a href="" id="women">Women</a> </div>
+               <div> <a href="login.html">Login</a> </div>
+               <div> <a href="signup.html">Signup</a> </div>
             </div>
 
     </div>
 </body>
 </html>
+
+<script>
+     
+     let link= document.querySelector("#women");
+
+     link.addEventListener("click", func);
+
+     function func(){
+      event.preventDefault();
+      console.log("inside");
+      alert("Sorry for Inconvenience, but the Page does not Exist :)")
+     }
+
+</script>
